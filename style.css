@@ -1,0 +1,58 @@
+/* Global stil */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.global-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.global-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.global-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main section img {
+    max-width: 100%;
+}
+
+
+.min-lista {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.min-tabell {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.min-tabell th, .min-tabell td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Sidfot */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
